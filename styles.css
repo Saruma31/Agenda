@@ -1,0 +1,69 @@
+body {
+     font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e63e3e, #38c94c); /* Hellblau zu Hellgrün */
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px; /* Maximal Breite */
+    margin: 50px auto;
+    padding: 20px;
+    background: #e9f7e9; /* Weißer Hintergrund für den Container */
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Schattierung */
+    text-align: center; /* Text zentrieren */
+}7
+
+h1 {
+    color: #333; /* Dunkle Schriftfarbe für den Titel */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold; /* Fett für Labels */
+}
+
+select, button {
+    width: 100%; /* Breite auf 100% */
+    padding: 10px; /* Innenabstand */
+    margin-bottom: 20px; /* Abstand nach unten */
+    border: 1px solid #ccc; /* Rahmenfarbe */
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-size: 16px; /* Schriftgröße */
+    transition: border-color 0.3s; /* Übergang für den Rahmen */
+}
+
+select:focus, button:focus {
+    border-color: #007bff; /* Rahmenfarbe beim Fokus */
+    outline: none; /* Keine Umrandung */
+}
+
+button {
+    background-color: #046cdb; /* Blaue Hintergrundfarbe */
+    color: #333333; /* Weiße Schriftfarbe */
+    border: none; /* Kein Rahmen */
+    cursor: pointer; /* Handcursor */
+    font-size: 18px; /* Größere Schriftgröße */
+}
+
+button:hover {
+    background-color: #0056b3; /* Dunkler bei Hover */
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Rahmen für das Ergebnis */
+    border-radius: 5px; /* Abgerundete Ecken */
+    background-color: #f8f9fa; /* Heller Hintergrund für das Ergebnis */
+}
+
+#result h2 {
+    color: #007bff; /* Blaue Schriftfarbe für die Überschrift im Ergebnis */
+}
