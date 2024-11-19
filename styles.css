@@ -1,6 +1,6 @@
 body {
      font-family: 'Arial', sans-serif;
-    background: #fce390; /* Hellblau zu Hellgrün */
+    background: #F7F7F7; /* Hellblau zu Hellgrün */
     height: 150vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     max-width: 600px; /* Maximal Breite */
     margin: 50px auto;
     padding: 20px;
-    background: #e9f7e9; /* Weißer Hintergrund für den Container */
+    background: #FFFFFF; /* Weißer Hintergrund für den Container */
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Schattierung */
     text-align: center; /* Text zentrieren */
