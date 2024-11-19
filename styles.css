@@ -1,6 +1,6 @@
 body {
      font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #e63e3e, #38c94c); /* Hellblau zu Hellgrün */
+    background: linear-gradient(135deg, #bdae84, #38c94c); /* Hellblau zu Hellgrün */
     height: 150vh;
     display: flex;
     justify-content: center;
