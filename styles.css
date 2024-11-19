@@ -1,5 +1,5 @@
 body {
-     font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     background: #E8F5E9; /* Hellblau zu Hellgrün */
     height: 150vh;
     display: flex;
@@ -17,7 +17,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Schattierung */
     text-align: center; /* Text zentrieren */
-}7
+}
 
 h1 {
     color: #333; /* Dunkle Schriftfarbe für den Titel */
@@ -62,8 +62,20 @@ button:hover {
     border: 1px solid #ccc; /* Rahmen für das Ergebnis */
     border-radius: 5px; /* Abgerundete Ecken */
     background-color: #f8f9fa; /* Heller Hintergrund für das Ergebnis */
+    text-align: left; /* Linksbündiger Text */
 }
 
 #result h2 {
     color: #007bff; /* Blaue Schriftfarbe für die Überschrift im Ergebnis */
+    text-align: center; /* Überschrift zentral ausrichten */
+}
+
+#result ul {
+    text-align: left; /* Linksbündig für Listen */
+    list-style-position: inside; /* Aufzählungszeichen innerhalb des Containers */
+    padding: 0; /* Kein zusätzlicher Außenabstand */
+}
+
+#result ul li {
+    margin-bottom: 5px; /* Abstand zwischen den Listenpunkten */
 }
