@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: #E8F5E9; /* Hellblau zu Hellgrün */
+    background: linear-gradient(120deg, #283464 0%, #440e59 100%); /* Hellblau zu Hellgrün */
     height: 150vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     max-width: 600px; /* Maximal Breite */
     margin: 50px auto;
     padding: 20px;
-    background: #FFFFFF; /* Weißer Hintergrund für den Container */
+    background: #a0dcbc; /* Weißer Hintergrund für den Container */
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Schattierung */
     text-align: center; /* Text zentrieren */
@@ -45,7 +45,7 @@ select:focus, button:focus {
 }
 
 button {
-    background-color: #046cdb; /* Blaue Hintergrundfarbe */
+    background-color: #ffa404; /* Blaue Hintergrundfarbe */
     color: #333333; /* Weiße Schriftfarbe */
     border: none; /* Kein Rahmen */
     cursor: pointer; /* Handcursor */
@@ -53,7 +53,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Dunkler bei Hover */
+    background-color: #d18704; /* Dunkler bei Hover */
 }
 
 #result {
@@ -66,7 +66,7 @@ button:hover {
 }
 
 #result h2 {
-    color: #007bff; /* Blaue Schriftfarbe für die Überschrift im Ergebnis */
+    color: #283464; /* Blaue Schriftfarbe für die Überschrift im Ergebnis */
     text-align: center; /* Überschrift zentral ausrichten */
 }
 
